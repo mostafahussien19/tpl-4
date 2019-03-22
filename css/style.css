@@ -44,6 +44,10 @@ body
 /*brand end*/
 /*navbar end*/
 /*carousal*/
+.carousel
+{
+  margin-top: 0 !important;
+}
 .carousel-control {
     position: absolute;
     top: 45%;
