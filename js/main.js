@@ -103,3 +103,11 @@ var canvas = new fabric.Canvas('canvas');
   };
   reader.readAsDataURL(file);
 });
+$(document).ready(function()
+{
+  $(".navbar a").click(function() {
+       $('html, body').animate({
+           scrollTop: $($(this).attr('href')).offset().top
+       }, 700);
+   });
+});
